@@ -61,10 +61,10 @@ p {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   max-width: 80rem;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
 }
 
 .container > * {
