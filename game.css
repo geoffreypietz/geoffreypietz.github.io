@@ -1,9 +1,9 @@
 #question {
-  font-family: "Crimson Pro";
+  font-family: "crimson pro";
   font-size: 3rem;
   color: #DDE4E1;
   background-color: #001E3D;
-  padding: 1rem;
+  padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -37,6 +37,8 @@
   padding: 1.5rem;
   width: 100%;
   color: #0A0A0A;
+  font-size: 1.8rem;
+  font-family: "droid serif";
 }
 
 .choice-odd {
@@ -52,7 +54,7 @@
 }
 
 #back-button {
-  font-family: "Crimson-Pro";
+  font-family: "crimson pro";
   color: #DDE4E1;
   font-size: 3rem;
 }
@@ -95,7 +97,7 @@
 
 #progress-text {
 
-  padding: 0.5rem 1.5rem .5rem 1.5rem;
+  padding: 0.5rem;
   width: 100%;
   color: #0A0A0A;
   grid-column-start: 1;

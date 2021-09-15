@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eternity Quiz Complete</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif" />
     <link rel="stylesheet" href="app.css"/>
 </head>
 <body>
@@ -13,12 +14,13 @@
             <p class="intro-text">Congratulations, you've completed the quiz! You are a:</p>
             <h2 id="final-title"></h2>
             <h3 id="final-text"></h3>
-            <form>
+            <form >
                 <input
                     type="text"
                     name="username"
                     id="username"
                     placeholder="username"
+                    hidden
                 />
                 <button 
                     type="submit" 
@@ -26,6 +28,7 @@
                     id="saveScoreBtn" 
                     onclick="saveHighScore(event)"
                     disabled
+                    hidden
                     >Save</button>
             </form>
             <a href="/game.html" class="btn">Take the Quiz again?</a>

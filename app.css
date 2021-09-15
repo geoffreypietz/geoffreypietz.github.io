@@ -33,7 +33,7 @@ h2 {
   font-size: 4.2rem;
   margin-bottom: 2rem;
   font-weight: 700;
-  font-family: "Crimson Pro";
+  font-family: "crimson pro";
   color: #0A0A0A;
 }
 
@@ -121,9 +121,9 @@ p {
 
 .final-btn {
   background-color: #C0900C;
-  font-family: "Crimson Pro";
+  font-family: "crimson pro";
   color: #0A0A0A;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 30rem;
 }
 
@@ -153,4 +153,4 @@ input {
 
 /* FONTS */
 
-h1 { font-family: Droid Serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Droid Serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Droid Serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Droid Serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Droid Serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+/*h1 { font-family: Droid Serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Droid Serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Droid Serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Droid Serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Droid Serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
