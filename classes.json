@@ -1,0 +1,90 @@
+{
+    "nk": {
+        "name" : "Nether Knight",
+        "text" : "Born of Another Realm"
+    },
+    "or": {
+        "name" : "Oracle",
+        "text": "Voice of the Eternals"
+    },
+    "sm": {
+        "name" : "Samurai",
+        "text" : "Noble Class of Elite Warriors"
+    },
+    "rg": {
+        "name" : "Royal Guard",
+        "text" : "Life-Sworn to Service"
+    },
+    "su": {
+        "name" : "Summoner",
+        "text" : "Gatekeeper of Aeturnum"
+    },
+    "vm": {
+        "name" : "Vampire Mage",
+        "text" : "Bringer of Shadows"
+    },
+    "cr": {
+        "name" : "Cryomancer",
+        "text" : "Born of the Winter Solstice"
+    },
+    "py": {
+        "name" : "Pyromancer",
+        "text" : "Born of the Summer Solstice"
+    },
+    "as": {
+        "name" : "Assassin",
+        "text" : "Bringing Final Memories"
+    },
+    "je": {
+        "name" : "Jester",
+        "text" : "Keeping the World Honest"
+    },
+    "mo": {
+        "name" : "Monk",
+        "text" : "Master of Self"
+    },
+    "ju": {
+        "name" : "Judge",
+        "text" : "Authority of the Realm on Behalf of its Lord"
+    },
+    "wh": {
+        "name": "Witch Hunter",
+        "text" : "Destroyer of Shadows"
+    },
+    "fp": {
+        "name" : "Fallen Paladin",
+        "text" : "Destroyer of the Light"
+    },
+    "rw": {
+        "name" : "Revenant Witch",
+        "text" : "Defender of Shadows"
+    },
+    "sa": {
+        "name" : "Sage",
+        "text" : "Bringer of the Light"
+    },
+    "pa": {
+        "name" : "Paladin",
+        "text" : "Defender of the Light"
+    },
+    "dr": {
+        "name" : "Druid",
+        "text" : "Ferality and the Expression of Nature"
+    },
+    "be": {
+        "name": "Berserker",
+        "text" : "Furious and Brutal"
+    },
+    "va": {
+        "name" : "Vanguard",
+        "text" : "Advance Force among Soldiers"
+    },
+    "le": {
+        "name" : "Legionnaire",
+        "text" : "Master of War"
+    },
+    "th": {
+        "name" : "Thief",
+        "text" : "It’s not Stealing if I want it More"
+    }
+}

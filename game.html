@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Eternity Class Quiz</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="loader"></div>
+      <div id="game" class="justify-center flex-column hidden">
+        <p id="question">What is the answer to this questions?</p>
+        <div id="choice1" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div id="choice2" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div id="choice3" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div id="choice4" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div id="choice5" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+        <div id="choice6" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="6">Choice 6</p>
+        </div>
+        <div id="choice7" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="7">Choice 7</p>
+        </div>
+        <div id="choice8" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="8">Choice 8</p>
+        </div>
+        <div id="choice9" class="choice-container">
+          <p class="choice-prefix"></p>
+          <p class="choice-text" data-number="9">Choice 9</p>
+        </div>
+        <div id="hud">
+          <div id="hud-item">
+            <p id="back-button" class="btn" >Back</p>
+          </div>
+          <div id="hud-item">
+            <div id="progressBar">
+              <p id="progress-text" >Quiz Progress</p>
+              <div id="progressBarFull"></div>
+              
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

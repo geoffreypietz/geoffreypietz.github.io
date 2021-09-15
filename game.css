@@ -1,0 +1,124 @@
+#question {
+  font-family: "Crimson Pro";
+  font-size: 3rem;
+  color: #DDE4E1;
+  background-color: #001E3D;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: #001E3D;
+}
+
+.choice-container-hidden {
+  display: none;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #C0900C;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #001E3D;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+  color: #0A0A0A;
+}
+
+.choice-odd {
+  background-color: #DDE4E1;
+}
+
+.choice-even{
+  background-color: #FFFFFF;
+}
+
+.selected {
+  background-color: #C0900C;
+}
+
+#back-button {
+  font-family: "Crimson-Pro";
+  color: #DDE4E1;
+  font-size: 3rem;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #DDE4E1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: #990000;
+  width: 0%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 1;
+}
+
+#progress-text {
+
+  padding: 0.5rem 1.5rem .5rem 1.5rem;
+  width: 100%;
+  color: #0A0A0A;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 2;
+}
+
+/* LOADER */
+#loader {
+  border: 1.6rem solid white;
+  border-radius: 50%;
+  border-top:  1.6rem solid #56a5eb;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

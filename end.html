@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternity Quiz Complete</title>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <p class="intro-text">Congratulations, you've completed the quiz! You are a:</p>
+            <h2 id="final-title"></h2>
+            <h3 id="final-text"></h3>
+            <form>
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="username"
+                />
+                <button 
+                    type="submit" 
+                    class="btn" 
+                    id="saveScoreBtn" 
+                    onclick="saveHighScore(event)"
+                    disabled
+                    >Save</button>
+            </form>
+            <a href="/game.html" class="btn">Take the Quiz again?</a>
+            <a href="https://eternityttrpg.com/eternity/" class="btn final-btn">Learn More About Us</a>
+            <a href="https://eternityttrpg.com/shop/" class="btn final-btn">
+                <i class="fa fa-shield" aria-hidden="true"></i>
+                Shop Eternity TTRPG</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+    
+<script src="https://use.fontawesome.com/f1b1eaba02.js"></script>
+
+</body>
+</html>

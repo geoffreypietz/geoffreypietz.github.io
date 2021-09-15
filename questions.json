@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "neutral_1",
+    "questionText": "Which of the following TTRPG Class Types do You Most Enjoy?",
+    "choices": [
+      {
+        "choiceText": "Melee Fighter: wield a giant sword, spear, or weapon and shield",
+        "nextQuestionId": "melee_2"
+      },
+      {
+        "choiceText": "Archer: attack enemies from a distance",
+        "nextQuestionId": "archer_2"
+      },
+      {
+        "choiceText": "Wizard: cast magic to harm and weaken enemies",
+        "nextQuestionId": "wizard_2"
+      },
+      {
+        "choiceText": "Healing and Protection: cast magic to heal and protect allies",
+        "nextQuestionId": "healer_2"
+      },
+      {
+        "choiceText": "Mix: do a little of it all",
+        "nextQuestionId": "mix_2"
+      }
+    ]
+  },
+  {
+    "id": "melee_2",
+    "questionText": "Do You Like the Option to Cast Magic at All?",
+    "choices": [
+      {
+        "choiceText": "It’s all about mastering the sword",
+        "nextQuestionId": "melee_3"
+      },
+      {
+        "choiceText": "Some magic is still useful",
+        "nextQuestionId": "mix_2"
+      }
+    ]
+  },
+  {
+    "id": "melee_3",
+    "questionText": "Do You Like to Have Any Skill with a Ranged Weapon, Just in Case?",
+    "choices": [
+      {
+        "choiceText": "As I said: sword",
+        "nextQuestionId": "melee_4"
+      },
+      {
+        "choiceText": "It is good to have a ranged weapon as a backup option",
+        "nextQuestionId": "melee_archer_4"
+      }
+    ]
+  },
+  {
+    "id": "melee_4",
+    "questionText": "Which Physique do You Prefer to Have?",
+    "choices": [
+      {
+        "choiceText": "Quick and agile",
+        "nextQuestionId": "melee_5",
+        "points": {
+          "value": 1,
+          "classes": "as, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Well-rounded",
+        "nextQuestionId": "melee_5",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le, rg, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Strong and bulky",
+        "nextQuestionId": "melee_5",
+        "points": {
+          "value": 1,
+          "classes": "be, le, rg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_5",
+    "questionText": "Favorite Weapon Type, or Combination?",
+    "choices": [
+      {
+        "choiceText": "Dagger",
+        "nextQuestionId": "melee_6",
+        "points": {
+          "value": 5,
+          "classes": "as, th"
+        }
+      },
+      {
+        "choiceText": "Sword",
+        "nextQuestionId": "melee_6",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Spear",
+        "nextQuestionId": "melee_6",
+        "points": {
+          "value": 5,
+          "classes": "le, sm, va"
+        }
+      },
+      {
+        "choiceText": "Sword and shield",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 7,
+          "classes": "le, rg"
+        }
+      },
+      {
+        "choiceText": "Dual-wielding weapons",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 7,
+          "classes": "as, be"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "melee_7",
+        "points": {
+          "value": 1,
+          "classes": "as, sm, th"
+        }
+      },
+      {
+        "choiceText": "Aggressive",
+        "nextQuestionId": "melee_7",
+        "points": {
+          "value": 1,
+          "classes": "be, sm, va"
+        }
+      },
+      {
+        "choiceText": "Thoughtful",
+        "nextQuestionId": "melee_7",
+        "points": {
+          "value": 1,
+          "classes": "le, rg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal power or gain",
+        "nextQuestionId": "melee_8",
+        "points": {
+          "value": 1,
+          "classes": "as, be, th"
+        }
+      },
+      {
+        "choiceText": "Advancing a cause you champion, or support",
+        "nextQuestionId": "melee_8",
+        "points": {
+          "value": 1,
+          "classes": "le, rg, sm, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "melee_9",
+        "points": {
+          "value": 1,
+          "classes": "as, be, rg"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "melee_9",
+        "points": {
+          "value": 1,
+          "classes": "le, sm, va"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "melee_9",
+        "points": {
+          "value": 1,
+          "classes": "th"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "melee_10",
+        "points": {
+          "value": 1,
+          "classes": "rg, sm"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "melee_10",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le"
+        }
+      },
+      {
+        "choiceText": "Both are important",
+        "nextQuestionId": "melee_10",
+        "points": {
+          "value": 1,
+          "classes": "le, rg, sm, va"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "melee_10",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le, rg, th, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Bringing Final Memories",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "as"
+        }
+      },
+      {
+        "choiceText": "Furious and Brutal",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "be"
+        }
+      },
+      {
+        "choiceText": "Master of War",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "le"
+        }
+      },
+      {
+        "choiceText": "Life-Sworn to Service",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "rg"
+        }
+      },
+      {
+        "choiceText": "Nobility of Mind and Body",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "sm"
+        }
+      },
+      {
+        "choiceText": "It’s not Stealing if I Want it More",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "th"
+        }
+      },
+      {
+        "choiceText": "Advance Guard",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_2",
+    "questionText": "Do You Like the Option to Cast Magic at All?",
+    "choices": [
+      {
+        "choiceText": "Not necessary",
+        "nextQuestionId": "archer_3"
+      },
+      {
+        "choiceText": "Some magic is still useful",
+        "nextQuestionId": "mix_2"
+      }
+    ]
+  },
+  {
+    "id": "archer_3",
+    "questionText": "Do You Like to Have Skill with a Melee Weapon As Well?",
+    "choices": [
+      {
+        "choiceText": "As I said: longbow is all I need",
+        "nextQuestionId": "archer_4"
+      },
+      {
+        "choiceText": "It’s always a good idea for when enemies move into close range",
+        "nextQuestionId": "melee_archer_4"
+      }
+    ]
+  },
+  {
+    "id": "archer_4",
+    "questionText": "Which Physique do You Prefer to Have?",
+    "choices": [
+      {
+        "choiceText": "Quick and agile",
+        "nextQuestionId": "archer_5",
+        "points": {
+          "value": 1,
+          "classes": "as, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Well-rounded",
+        "nextQuestionId": "archer_5",
+        "points": {
+          "value": 1,
+          "classes": "as, le, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Maximum strength, for accuracy",
+        "nextQuestionId": "archer_5",
+        "points": {
+          "value": 1,
+          "classes": "le"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_5",
+    "questionText": "Favorite Way to Embellish Your Arrows, when Necessary?",
+    "choices": [
+      {
+        "choiceText": "Poison",
+        "nextQuestionId": "archer_6",
+        "points": {
+          "value": 7,
+          "classes": "as, th"
+        }
+      },
+      {
+        "choiceText": "Feathers, for increased accuracy",
+        "nextQuestionId": "archer_6",
+        "points": {
+          "value": 1,
+          "classes": "le, va"
+        }
+      },
+      {
+        "choiceText": "Crystalline blinding powder on the arrowhead and shaft",
+        "nextQuestionId": "archer_6",
+        "points": {
+          "value": 7,
+          "classes": "th"
+        }
+      },
+      {
+        "choiceText": "For a true archer, no embellishment is needed",
+        "nextQuestionId": "archer_6",
+        "points": {
+          "value": 1,
+          "classes": "sm, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "archer_7",
+        "points": {
+          "value": 1,
+          "classes": "as, sm, th"
+        }
+      },
+      {
+        "choiceText": "Aggressive",
+        "nextQuestionId": "archer_7",
+        "points": {
+          "value": 1,
+          "classes": "sm, va"
+        }
+      },
+      {
+        "choiceText": "Precise",
+        "nextQuestionId": "archer_7",
+        "points": {
+          "value": 1,
+          "classes": "le"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal Power or Gain",
+        "nextQuestionId": "archer_8",
+        "points": {
+          "value": 1,
+          "classes": "as, th"
+        }
+      },
+      {
+        "choiceText": "Advancing a Cause You Champion or Support",
+        "nextQuestionId": "archer_8",
+        "points": {
+          "value": 1,
+          "classes": "le, sm, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "archer_9",
+        "points": {
+          "value": 1,
+          "classes": "as"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "archer_9",
+        "points": {
+          "value": 1,
+          "classes": "le, sm, va"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "archer_9",
+        "points": {
+          "value": 1,
+          "classes": "th"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "archer_10",
+        "points": {
+          "value": 1,
+          "classes": "sm"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "as, le)"
+        }
+      },
+      {
+        "choiceText": "Both are important",
+        "nextQuestionId": "archer_10",
+        "points": {
+          "value": 1,
+          "classes": "le, sm, va"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "archer_10",
+        "points": {
+          "value": 1,
+          "classes": "as, le, th, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "archer_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Bringing Final Memories",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "as"
+        }
+      },
+      {
+        "choiceText": "Master of War",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "le"
+        }
+      },
+      {
+        "choiceText": "Nobility of Mind and Body",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "sm"
+        }
+      },
+      {
+        "choiceText": "It’s not Stealing if I Want it More",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "th"
+        }
+      },
+      {
+        "choiceText": "Advance Guard",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_4",
+    "questionText": "Which Physique do You Prefer to Have?",
+    "choices": [
+      {
+        "choiceText": "Quick and agile",
+        "nextQuestionId": "melee_archer_5",
+        "points": {
+          "value": 1,
+          "classes": "as, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Well-rounded",
+        "nextQuestionId": "melee_archer_5",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le, rg, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Strong and bulky",
+        "nextQuestionId": "melee_archer_5",
+        "points": {
+          "value": 1,
+          "classes": "be, le, rg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_5",
+    "questionText": "Favorite Weapon Type, or Combination?",
+    "choices": [
+      {
+        "choiceText": "Dagger",
+        "nextQuestionId": "melee_archer_6",
+        "points": {
+          "value": 5,
+          "classes": "as, th"
+        }
+      },
+      {
+        "choiceText": "Sword",
+        "nextQuestionId": "melee_archer_6",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le, sm, th, va"
+        }
+      },
+      {
+        "choiceText": "Spear",
+        "nextQuestionId": "melee_archer_6",
+        "points": {
+          "value": 5,
+          "classes": "le, sm, va"
+        }
+      },
+      {
+        "choiceText": "Sword and shield",
+        "nextQuestionId": "melee_archer_6",
+        "points": {
+          "value": 7,
+          "classes": "le, rg"
+        }
+      },
+      {
+        "choiceText": "Dual-wielding weapons",
+        "nextQuestionId": "melee_archer_6",
+        "points": {
+          "value": 7,
+          "classes": "as, be"
+        }
+      },
+      {
+        "choiceText": "Longbow, duh",
+        "nextQuestionId": "melee_archer_6",
+        "points": {
+          "value": 5,
+          "classes": "va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "melee_archer_7",
+        "points": {
+          "value": 1,
+          "classes": "as, sm, th"
+        }
+      },
+      {
+        "choiceText": "Aggressive",
+        "nextQuestionId": "melee_archer_7",
+        "points": {
+          "value": 1,
+          "classes": "be, sm, va"
+        }
+      },
+      {
+        "choiceText": "Thoughtful",
+        "nextQuestionId": "melee_archer_7",
+        "points": {
+          "value": 1,
+          "classes": "le, rg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal power or gain",
+        "nextQuestionId": "melee_archer_8",
+        "points": {
+          "value": 1,
+          "classes": "as, be, th"
+        }
+      },
+      {
+        "choiceText": "Advancing a cause you champion, or support",
+        "nextQuestionId": "melee_archer_8",
+        "points": {
+          "value": 1,
+          "classes": "le, rg, sm, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "melee_archer_9",
+        "points": {
+          "value": 1,
+          "classes": "as, be, rg"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "melee_archer_9",
+        "points": {
+          "value": 1,
+          "classes": "le, sm, va"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "melee_archer_9",
+        "points": {
+          "value": 1,
+          "classes": "th"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "melee_archer_10",
+        "points": {
+          "value": 1,
+          "classes": "rg, sm"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "melee_archer_10",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le"
+        }
+      },
+      {
+        "choiceText": "Both are important",
+        "nextQuestionId": "melee_archer_10",
+        "points": {
+          "value": 1,
+          "classes": "le, rg, sm, va"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "melee_archer_10",
+        "points": {
+          "value": 1,
+          "classes": "as, be, le, rg, th, va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "melee_archer_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Bringing Final Memories",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "as"
+        }
+      },
+      {
+        "choiceText": "Furious and Brutal",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "be"
+        }
+      },
+      {
+        "choiceText": "Master of War",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "le"
+        }
+      },
+      {
+        "choiceText": "Life-Sworn to Service",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "rg"
+        }
+      },
+      {
+        "choiceText": "Nobility of Mind and Body",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "sm"
+        }
+      },
+      {
+        "choiceText": "It’s not Stealing if I Want it More",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "th"
+        }
+      },
+      {
+        "choiceText": "Advance Guard",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_2",
+    "questionText": "Do You Like to Integrate Swords or Longbow Use into Your Spellcasting?",
+    "choices": [
+      {
+        "choiceText": "Magic is more powerful than any sword",
+        "nextQuestionId": "wizard_3"
+      },
+      {
+        "choiceText": "Magic is most important, but having a weapon to utilize with it is valuable",
+        "nextQuestionId": "mix_2"
+      }
+    ]
+  },
+  {
+    "id": "wizard_3",
+    "questionText": "How Important",
+    "choices": [
+      {
+        "choiceText": "No need to heal and protect allies if all the enemies are already dead",
+        "nextQuestionId": "wizard_4"
+      },
+      {
+        "choiceText": "Magic has many valuable purposes, including healing and protection",
+        "nextQuestionId": "wizard_4"
+      }
+    ]
+  },
+  {
+    "id": "wizard_4",
+    "questionText": "Do You Like to Specialize in a Particular Type of Magic?",
+    "choices": [
+      {
+        "choiceText": "Summon: create monsters to fight on your behalf",
+        "nextQuestionId": "wizard_5",
+        "points": {
+          "value": 7,
+          "classes": "su, vm"
+        }
+      },
+      {
+        "choiceText": "Debuff: weaken enemies",
+        "nextQuestionId": "wizard_5",
+        "points": {
+          "value": 7,
+          "classes": "cr, or, sa, vm"
+        }
+      },
+      {
+        "choiceText": "Immediate Damage: utilize magic for flashes of pure power",
+        "nextQuestionId": "wizard_5",
+        "points": {
+          "value": 1,
+          "classes": "cr, py, su, vm"
+        }
+      },
+      {
+        "choiceText": "Recurring Damage: utilize magic for sustained pain",
+        "nextQuestionId": "wizard_5",
+        "points": {
+          "value": 1,
+          "classes": "cr, or, py, sa, vm"
+        }
+      },
+      {
+        "choiceText": "It’s better to not specialize",
+        "nextQuestionId": "wizard_5",
+        "points": {
+          "value": 1,
+          "classes": "cr, or, py, sa, su, vm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_5",
+    "questionText": "Which Magical Element Do You Find Most Valuable in Spellcasting?",
+    "choices": [
+      {
+        "choiceText": "Ice",
+        "nextQuestionId": "wizard_6",
+        "points": {
+          "value": 7,
+          "classes": "cr"
+        }
+      },
+      {
+        "choiceText": "Fire",
+        "nextQuestionId": "wizard_6",
+        "points": {
+          "value": 7,
+          "classes": "py"
+        }
+      },
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "wizard_6",
+        "points": {
+          "value": 7,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "wizard_6",
+        "points": {
+          "value": 7,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "All elements have equal value",
+        "nextQuestionId": "wizard_6",
+        "points": {
+          "value": 7,
+          "classes": "or, su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "wizard_7",
+        "points": {
+          "value": 1,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "Aggressive",
+        "nextQuestionId": "wizard_7",
+        "points": {
+          "value": 1,
+          "classes": "py"
+        }
+      },
+      {
+        "choiceText": "Detached from worldly matters",
+        "nextQuestionId": "wizard_7",
+        "points": {
+          "value": 1,
+          "classes": "cr, or, vm"
+        }
+      },
+      {
+        "choiceText": "Empathetic and compassionate",
+        "nextQuestionId": "wizard_7",
+        "points": {
+          "value": 1,
+          "classes": "or, sa, su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal power or gain",
+        "nextQuestionId": "wizard_8",
+        "points": {
+          "value": 1,
+          "classes": "cr, py, su, vm"
+        }
+      },
+      {
+        "choiceText": "Advancing a cause you champion, or support",
+        "nextQuestionId": "wizard_8",
+        "points": {
+          "value": 1,
+          "classes": "or, sa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "wizard_9",
+        "points": {
+          "value": 1,
+          "classes": "or, py, vm"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "wizard_9",
+        "points": {
+          "value": 1,
+          "classes": "cr, sa"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "wizard_9",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "wizard_10",
+        "points": {
+          "value": 7,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "wizard_10",
+        "points": {
+          "value": 7,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "Both are important",
+        "nextQuestionId": "wizard_10",
+        "points": {
+          "value": 1,
+          "classes": "cr, or, su"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "wizard_10",
+        "points": {
+          "value": 1,
+          "classes": "py"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Student of the Moon",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "cr"
+        }
+      },
+      {
+        "choiceText": "Voice of the Eternals",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "or"
+        }
+      },
+      {
+        "choiceText": "Scholar of Life",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Gatekeeper of Aeturnum",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      },
+      {
+        "choiceText": "Scholar of Death",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "Child of the Sun",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "py"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_2",
+    "questionText": "Do You Like to Integrate Swords or Shields into Your Spellcasting?",
+    "choices": [
+      {
+        "choiceText": "Magic is more potent than any shield",
+        "nextQuestionId": "healer_3"
+      },
+      {
+        "choiceText": "Magic is most important, but having a weapon and shield for protection is also valuable",
+        "nextQuestionId": "mix_2"
+      }
+    ]
+  },
+  {
+    "id": "healer_3",
+    "questionText": "Do You Also Like to Inflict Damage with Your Magic?",
+    "choices": [
+      {
+        "choiceText": "Healing and protection is more valuable than inflicting harm",
+        "nextQuestionId": "healer_4"
+      },
+      {
+        "choiceText": "At times, the best defense is a strong offense",
+        "nextQuestionId": "healer_4"
+      }
+    ]
+  },
+  {
+    "id": "healer_4",
+    "questionText": "Do You Like to Specialize in a Particular Type of Magic?",
+    "choices": [
+      {
+        "choiceText": "Summon: create monsters to fight on your behalf",
+        "nextQuestionId": "healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, su"
+        }
+      },
+      {
+        "choiceText": "Buff: strengthen and aid allies",
+        "nextQuestionId": "healer_5",
+        "points": {
+          "value": 7,
+          "classes": "pa, sa, wh"
+        }
+      },
+      {
+        "choiceText": "Heal: restore allies’ hit points after they take damage",
+        "nextQuestionId": "healer_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, pa, sa, su, wh"
+        }
+      },
+      {
+        "choiceText": "Dispel: remove negative effects from allies, or remove buffs from enemies",
+        "nextQuestionId": "healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, pa, sa, wh"
+        }
+      },
+      {
+        "choiceText": "It’s better to not specialize",
+        "nextQuestionId": "healer_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, pa, sa, su, wh"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_5",
+    "questionText": "Which Magical Element Do You Find Most Valuable in Spellcasting?",
+    "choices": [
+      {
+        "choiceText": "Earth",
+        "nextQuestionId": "healer_6",
+        "points": {
+          "value": 7,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "healer_6",
+        "points": {
+          "value": 7,
+          "classes": "pa, sa, wh"
+        }
+      },
+      {
+        "choiceText": "All elements have equal value",
+        "nextQuestionId": "healer_6",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "healer_7",
+        "points": {
+          "value": 1,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Aggressive",
+        "nextQuestionId": "healer_7",
+        "points": {
+          "value": 1,
+          "classes": "wh"
+        }
+      },
+      {
+        "choiceText": "Empathetic and compassionate",
+        "nextQuestionId": "healer_7",
+        "points": {
+          "value": 1,
+          "classes": "pa, sa, su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal power or gain",
+        "nextQuestionId": "healer_8",
+        "points": {
+          "value": 1,
+          "classes": "dr, su, wh"
+        }
+      },
+      {
+        "choiceText": "Advancing a cause you champion, or support",
+        "nextQuestionId": "healer_8",
+        "points": {
+          "value": 1,
+          "classes": "pa, sa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "healer_9",
+        "points": {
+          "value": 1,
+          "classes": "wh"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "healer_9",
+        "points": {
+          "value": 1,
+          "classes": "dr, pa, sa"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "healer_9",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "healer_10",
+        "points": {
+          "value": 7,
+          "classes": "pa, sa, wh"
+        }
+      },
+      {
+        "choiceText": "Both light and the shadow side of life are important",
+        "nextQuestionId": "healer_10",
+        "points": {
+          "value": 7,
+          "classes": "dr, su"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "healer_10",
+        "points": {
+          "value": 7,
+          "classes": "dr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "healer_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Wildness and Freedom",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Scholar of Life",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Gatekeeper of Aeturnum",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      },
+      {
+        "choiceText": "Defender of Life",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "pa"
+        }
+      },
+      {
+        "choiceText": "Destroyer of Darkness",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "wh"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_4",
+    "questionText": "Do You Like to Specialize in a Particular Type of Magic?",
+    "choices": [
+      {
+        "choiceText": "Summon: create monsters to fight on your behalf",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, su, vm"
+        }
+      },
+      {
+        "choiceText": "Buff: strengthen and aid allies",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, cr, or, py, sa, su"
+        }
+      },
+      {
+        "choiceText": "Debuff: weaken enemies",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, cr, or, sa, vm"
+        }
+      },
+      {
+        "choiceText": "Heal: restore allies’ hit points after they take damage",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, sa, su, vm"
+        }
+      },
+      {
+        "choiceText": "Damage: utilize magic for pure power",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, cr, or, py, sa, su, vm"
+        }
+      },
+      {
+        "choiceText": "Dispel: remove negative effects from allies, or remove buffs from enemies",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, or, py, sa, vm"
+        }
+      },
+      {
+        "choiceText": "It’s better to not specialize",
+        "nextQuestionId": "wizard_healer_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, cr, or, py, sa, su, vm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_5",
+    "questionText": "Which Magical Element Do You Find Most Valuable in Spellcasting?",
+    "choices": [
+      {
+        "choiceText": "Ice",
+        "nextQuestionId": "wizard_healer_6",
+        "points": {
+          "value": 7,
+          "classes": "cr"
+        }
+      },
+      {
+        "choiceText": "Fire",
+        "nextQuestionId": "wizard_healer_6",
+        "points": {
+          "value": 7,
+          "classes": "py"
+        }
+      },
+      {
+        "choiceText": "Earth",
+        "nextQuestionId": "wizard_healer_6",
+        "points": {
+          "value": 7,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "wizard_healer_6",
+        "points": {
+          "value": 7,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "wizard_healer_6",
+        "points": {
+          "value": 7,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "All elements have equal value",
+        "nextQuestionId": "wizard_healer_6",
+        "points": {
+          "value": 1,
+          "classes": "or, su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "wizard_healer_7",
+        "points": {
+          "value": 1,
+          "classes": "dr, vm"
+        }
+      },
+      {
+        "choiceText": "Assertive",
+        "nextQuestionId": "wizard_healer_7",
+        "points": {
+          "value": 1,
+          "classes": "py"
+        }
+      },
+      {
+        "choiceText": "Detached from worldly matters",
+        "nextQuestionId": "wizard_healer_7",
+        "points": {
+          "value": 1,
+          "classes": "cr, or, vm"
+        }
+      },
+      {
+        "choiceText": "Empathetic and compassionate",
+        "nextQuestionId": "wizard_healer_7",
+        "points": {
+          "value": 1,
+          "classes": "or, sa, su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal power or gain",
+        "nextQuestionId": "wizard_healer_8",
+        "points": {
+          "value": 1,
+          "classes": "cr, dr, py, su, vm"
+        }
+      },
+      {
+        "choiceText": "Advancing a cause you champion, or support",
+        "nextQuestionId": "wizard_healer_8",
+        "points": {
+          "value": 1,
+          "classes": "or, sa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "wizard_healer_9",
+        "points": {
+          "value": 1,
+          "classes": "or, py, vm"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "wizard_healer_9",
+        "points": {
+          "value": 1,
+          "classes": "cr, dr, sa"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "wizard_healer_9",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "wizard_healer_10",
+        "points": {
+          "value": 7,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Shadow",
+        "nextQuestionId": "wizard_healer_10",
+        "points": {
+          "value": 7,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "Both light and the shadow side of life are important",
+        "nextQuestionId": "wizard_healer_10",
+        "points": {
+          "value": 7,
+          "classes": "cr, dr, or, su"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "wizard_healer_10",
+        "points": {
+          "value": 7,
+          "classes": "dr, py"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wizard_healer_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Wildness and Freedom",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Scholar of Life",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "sa"
+        }
+      },
+      {
+        "choiceText": "Gatekeeper of Aeturnum",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "su"
+        }
+      },
+      {
+        "choiceText": "Student of the Moon",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "cr"
+        }
+      },
+      {
+        "choiceText": "Voice of the Eternals",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "or"
+        }
+      },
+
+      {
+        "choiceText": "Scholar of Death",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "vm"
+        }
+      },
+      {
+        "choiceText": "Child of the Sun",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "py"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_2",
+    "questionText": "Which Physique do You Prefer to Have?",
+    "choices": [
+      {
+        "choiceText": "Quick and agile",
+        "nextQuestionId": "mix_3",
+        "points": {
+          "value": 1,
+          "classes": "dr, mo, nk, wh"
+        }
+      },
+      {
+        "choiceText": "Strong and bulky",
+        "nextQuestionId": "mix_3",
+        "points": {
+          "value": 1,
+          "classes": "fp, ju, pa"
+        }
+      },
+      {
+        "choiceText": "Lean or Thin",
+        "nextQuestionId": "mix_3",
+        "points": {
+          "value": 1,
+          "classes": "je, rw"
+        }
+      },
+      {
+        "choiceText": "Well-rounded",
+        "nextQuestionId": "mix_3",
+        "points": {
+          "value": 1,
+          "classes": "dr, fp, je, ju, mo, nk, pa, rw, wh"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_3",
+    "questionText": "Do You Like to Specialize in a Particular Type of Magic?",
+    "choices": [
+      {
+        "choiceText": "Summon: create monsters to fight on your behalf",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 7,
+          "classes": "dr, nk, rw"
+        }
+      },
+      {
+        "choiceText": "Buff: strengthen and aid allies",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 7,
+          "classes": "dr, fp, ju, pa, wh"
+        }
+      },
+      {
+        "choiceText": "Debuff: weaken enemies",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 7,
+          "classes": "dr, fp, ju, mo, rw"
+        }
+      },
+      {
+        "choiceText": "Heal: restore allies’ hit points after they take damage",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 7,
+          "classes": "dr, fp, mo, pa, wh"
+        }
+      },
+      {
+        "choiceText": "Damage: utilize magic for pure power",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 7,
+          "classes": "dr, fp, nk, pa, rw"
+        }
+      },
+      {
+        "choiceText": "Dispel: remove negative effects from allies, or remove buffs from enemies",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 7,
+          "classes": "dr, ju, pa, rw"
+        }
+      },
+      {
+        "choiceText": "It’s better to not specialize",
+        "nextQuestionId": "mix_4",
+        "points": {
+          "value": 1,
+          "classes": "dr, fp, je, ju, mo, nk, pa, rw, wh"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_4",
+    "questionText": "Favorite Weapon Type, or Combination?",
+    "choices": [
+      {
+        "choiceText": "Dagger",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, je, nk, rw"
+        }
+      },
+      {
+        "choiceText": "Sword",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, fp, je, ju, nk, pa, rw, wh"
+        }
+      },
+      {
+        "choiceText": "Longbow",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, fp, je, ju, pa, rw, wh"
+        }
+      },
+      {
+        "choiceText": "Staff",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 1,
+          "classes": "dr, fp, je, ju, nk, pa, rw, wh"
+        }
+      },
+      {
+        "choiceText": "Sword and shield",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 5,
+          "classes": "fp, ju, pa"
+        }
+      },
+      {
+        "choiceText": "Dual-wielding weapons",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 7,
+          "classes": "nk"
+        }
+      },
+      {
+        "choiceText": "My body is enough of a weapon",
+        "nextQuestionId": "mix_5",
+        "points": {
+          "value": 7,
+          "classes": "dr, mo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_5",
+    "questionText": "Which Magical Element Do You Find Most Valuable?",
+    "choices": [
+      {
+        "choiceText": "Earth",
+        "nextQuestionId": "mix_6",
+        "points": {
+          "value": 7,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "mix_6",
+        "points": {
+          "value": 7,
+          "classes": "pa, wh"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "mix_6",
+        "points": {
+          "value": 7,
+          "classes": "fp, rw"
+        }
+      },
+      {
+        "choiceText": "All elements have equal value",
+        "nextQuestionId": "mix_6",
+        "points": {
+          "value": 1,
+          "classes": "je, ju, mo, nk"
+        }
+      },
+      {
+        "choiceText": "I’m not interested enough to know",
+        "nextQuestionId": "mix_6",
+        "points": {
+          "value": 1,
+          "classes": "je, nk"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_6",
+    "questionText": "Which of these Best Describes Your Personality?",
+    "choices": [
+      {
+        "choiceText": "Cunning",
+        "nextQuestionId": "mix_7",
+        "points": {
+          "value": 1,
+          "classes": "dr, rw"
+        }
+      },
+      {
+        "choiceText": "Aggressive",
+        "nextQuestionId": "mix_7",
+        "points": {
+          "value": 1,
+          "classes": "fp, wh"
+        }
+      },
+      {
+        "choiceText": "Thoughtful",
+        "nextQuestionId": "mix_7",
+        "points": {
+          "value": 1,
+          "classes": "ju"
+        }
+      },
+      {
+        "choiceText": "Detached from worldly matters",
+        "nextQuestionId": "mix_7",
+        "points": {
+          "value": 1,
+          "classes": "je, nk"
+        }
+      },
+      {
+        "choiceText": "Empathetic and compassionate",
+        "nextQuestionId": "mix_7",
+        "points": {
+          "value": 1,
+          "classes": "mo, pa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_7",
+    "questionText": "What Motivates You More?",
+    "choices": [
+      {
+        "choiceText": "Personal Power or Gain",
+        "nextQuestionId": "mix_8",
+        "points": {
+          "value": 1,
+          "classes": "dr, fp, nk, rw, wh"
+        }
+      },
+      {
+        "choiceText": "Advancing a Cause You Champion or Support",
+        "nextQuestionId": "mix_8",
+        "points": {
+          "value": 1,
+          "classes": "ju, mo, pa"
+        }
+      },
+      {
+        "choiceText": "I don’t believe in such concepts",
+        "nextQuestionId": "mix_8",
+        "points": {
+          "value": 5,
+          "classes": "je"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_8",
+    "questionText": "How Far Will You Go to Achieve Your Goals?",
+    "choices": [
+      {
+        "choiceText": "Literally whatever it takes",
+        "nextQuestionId": "mix_9",
+        "points": {
+          "value": 1,
+          "classes": "fp, rw, wh"
+        }
+      },
+      {
+        "choiceText": "As far as it reasonable, though it’s not worth exchanging everything for it",
+        "nextQuestionId": "mix_9",
+        "points": {
+          "value": 1,
+          "classes": "dr, ju, mo, nk, pa"
+        }
+      },
+      {
+        "choiceText": "Things that come to me easily are better",
+        "nextQuestionId": "mix_9",
+        "points": {
+          "value": 1,
+          "classes": "je"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_9",
+    "questionText": "When it Comes to Spirituality and Life Choices?",
+    "choices": [
+      {
+        "choiceText": "Light",
+        "nextQuestionId": "mix_10",
+        "points": {
+          "value": 7,
+          "classes": "pa, wh"
+        }
+      },
+      {
+        "choiceText": "Shadows",
+        "nextQuestionId": "mix_10",
+        "points": {
+          "value": 7,
+          "classes": "fp, rw"
+        }
+      },
+      {
+        "choiceText": "Both are important",
+        "nextQuestionId": "mix_10",
+        "points": {
+          "value": 1,
+          "classes": "dr, ju, mo, nk"
+        }
+      },
+      {
+        "choiceText": "Neither matter",
+        "nextQuestionId": "mix_10",
+        "points": {
+          "value": 1,
+          "classes": "dr, je, nk"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mix_10",
+    "questionText": "Which Life Motto or Description Applies Best?",
+    "choices": [
+      {
+        "choiceText": "Wildness and Freedom",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "dr"
+        }
+      },
+      {
+        "choiceText": "Bringer of Dominion",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "fp"
+        }
+      },
+      {
+        "choiceText": "Keeping the World Honest",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "je"
+        }
+      },
+      {
+        "choiceText": "Defender of Life",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "pa"
+        }
+      },
+      {
+        "choiceText": "Master of Self",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "mo"
+        }
+      },
+
+      {
+        "choiceText": "Justice is Supreme",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "ju"
+        }
+      },
+      {
+        "choiceText": "Defender of Darkness",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "rw"
+        }
+      },
+      {
+        "choiceText": "Always Seeking",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "nk"
+        }
+      },
+      {
+        "choiceText": "Destroyer of Darkness",
+        "nextQuestionId": "end",
+        "points": {
+          "value": 1,
+          "classes": "wh"
+        }
+      }
+    ]
+  }
+]
