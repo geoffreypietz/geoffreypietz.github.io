@@ -132,7 +132,7 @@ choices.forEach((choice) => {
         //go to the end page
         return window.location.assign("/end.html?cc=" + chosenClass);
       }
-    }, 1000);
+    }, 300);
   });
 });
 
