@@ -7,7 +7,7 @@
   margin-bottom: 1.5rem;
 }
 
-.choice-container {
+.choice-quiz-container {
   display: flex;
   margin-bottom: 0.5rem;
   width: 100%;
@@ -16,11 +16,11 @@
   background-color: #001E3D;
 }
 
-.choice-container-hidden {
+.choice-quiz-container-hidden {
   display: none;
 }
 
-.choice-container:hover {
+.choice-quiz-container:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 #C0900C;
   transform: translateY(-0.1rem);

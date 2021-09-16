@@ -77,11 +77,11 @@ getNewQuestion = (nextQuestionId) => {
     // Set to hidden or not
     if (currentQuestion.choices[number - 1]) {
       choice.innerText = currentQuestion.choices[number - 1].choiceText;
-      choice.parentElement.classList.remove("choice-container-hidden");
-      choice.parentElement.classList.add("choice-container");
+      choice.parentElement.classList.remove("choice-quiz-container-hidden");
+      choice.parentElement.classList.add("choice-quiz-container");
     } else {
-      choice.parentElement.classList.remove("choice-container");
-      choice.parentElement.classList.add("choice-container-hidden");
+      choice.parentElement.classList.remove("choice-quiz-container");
+      choice.parentElement.classList.add("choice-quiz-container-hidden");
     }
 
     if(number % 2 == 1){
