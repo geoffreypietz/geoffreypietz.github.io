@@ -113,7 +113,7 @@
       },
       {
         "choiceText": "Sword and shield",
-        "nextQuestionId": "end",
+        "nextQuestionId": "melee_6",
         "points": {
           "value": 7,
           "classes": "le, rg"
@@ -121,7 +121,7 @@
       },
       {
         "choiceText": "Dual-wielding weapons",
-        "nextQuestionId": "end",
+        "nextQuestionId": "melee_6",
         "points": {
           "value": 7,
           "classes": "as, be"
