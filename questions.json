@@ -503,10 +503,10 @@
       },
       {
         "choiceText": "Shadows",
-        "nextQuestionId": "end",
+        "nextQuestionId": "archer_10",
         "points": {
           "value": 1,
-          "classes": "as, le)"
+          "classes": "as, le"
         }
       },
       {
