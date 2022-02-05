@@ -58,7 +58,7 @@ setClassImageAndEmail = (cc) => {
   }
   if(cc == "be"){
     beEmail.classList.remove("hidden");
-    finalImage.src="/img/Berserker.jpg";
+    finalImage.src="/img/Berserk.jpg";
   }
   if(cc == "cr"){
     crEmail.classList.remove("hidden");
